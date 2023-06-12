@@ -1,0 +1,116 @@
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  color: #fff;
+  background: linear-gradient(
+    45deg,
+    rgba(13, 29, 255, 0.85),
+    rgb(132, 0, 255),
+    rgb(19, 196, 236),
+    black
+  );
+  background-size: 400% 400%;
+  position: relative;
+  animation: cambiar 10s ease-in-out infinite;
+}
+
+@keyframes cambiar {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+.form-box {
+  height: 180px;
+  padding: 10px;
+  width: 300px;
+  margin-top: 12%;
+  margin-left: 45%;
+  border-radius: 55px 55px 55px 55px;
+  border-radius: 52px 52px 52px 52px;
+  -webkit-border-radius: 52px 52px 52px 52px;
+  -moz-border-radius: 52px 52px 52px 52px;
+  background: #57dfe2;
+  background: linear-gradient(90deg, #57dfe2 0%, #d0a4ff 80%);
+  background: -webkit-linear-gradient(90deg, #57dfe2 0%, #d0a4ff 80%);
+  background: -moz-linear-gradient(90deg, #57dfe2 0%, #d0a4ff 80%);
+  box-shadow: -10px 22px 0px 1px rgba(0, 0, 0, 1);
+  -webkit-box-shadow: -10px 22px 0px 1px rgba(0, 0, 0, 1);
+  -moz-box-shadow: -10px 22px 0px 1px rgba(0, 0, 0, 1);
+  border-style: solid;
+}
+
+.input-box {
+  background-color: transparent;
+  border: transparent;
+  width: 143px;
+}
+
+.xd {
+  margin-right: 60px;
+  border: 1px solid black;
+  margin-left: 50px;
+  border-radius: 200px 200px 200px 200px;
+  -webkit-border-radius: 200px 200px 200px 200px;
+  -moz-border-radius: 200px 200px 200px 200px;
+  background: #fbb6ec;
+}
+
+#input-email {
+  margin-left: 5%;
+}
+
+#input_password {
+  margin-left: 5%;
+}
+
+#input-password {
+  margin-top: 2%;
+}
+
+#titulo {
+  margin-left: 108px;
+}
+
+#login-buttom {
+  margin-left: 70px;
+  margin-top: 5%;
+  border-radius: 55px 55px 55px 55px;
+  background-color: #9cb3f3;
+  width: 70px;
+}
+
+#registro-buttom {
+  margin-left: 15px;
+  margin-top: 5%;
+  border-radius: 55px 55px 55px 55px;
+  background-color: #9cb3f3;
+  width: 70px;
+}
+
+input::placeholder {
+  position: absolute;
+  top: 0xsdspx;
+}
+
+#email-icon {
+  margin-left: 0px;
+  border-left: 1px solid black;
+  padding-left: 3px;
+}
+
+#password-icon {
+  margin-left: 0px;
+  border-left: 1px solid black;
+  padding-left: 3px;
+}
